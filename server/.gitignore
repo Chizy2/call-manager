@@ -1,0 +1,18 @@
+# Database files
+database/*.db
+database/*.db-journal
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# OS
+.DS_Store
+

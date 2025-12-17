@@ -1,7 +1,7 @@
 const supabase = require('./supabase');
 
 const createDefaultUser = async () => {
-  const defaultEmail = 'admin@mejorra.com';
+  const defaultEmail = 'admin@callhub.com';
   const defaultPassword = 'admin123';
   const defaultUsername = 'admin';
 

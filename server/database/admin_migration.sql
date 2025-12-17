@@ -38,7 +38,7 @@ CREATE POLICY "Admins can view all call records"
   );
 
 -- Set an existing user as admin (replace with your admin user's email)
--- UPDATE users SET is_admin = true WHERE email = 'admin@mejorra.com';
+-- UPDATE users SET is_admin = true WHERE email = 'admin@callhub.com';
 
 -- Create index for admin lookups
 CREATE INDEX IF NOT EXISTS idx_users_is_admin ON users(is_admin);
